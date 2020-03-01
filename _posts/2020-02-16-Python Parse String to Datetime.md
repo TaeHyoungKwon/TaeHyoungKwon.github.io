@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python Snippets] Python zip"
+title: "[Python Snippets] Python Parse String to Datetime"
 description: "Code Wars 문제를 풀면서 새롭게 알게된 것들을 snippets으로 정리 한다."
 date: 2020-02-18
 tags: [python, snippets, zip]
