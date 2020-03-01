@@ -6,8 +6,6 @@ date: 2020-03-01
 tags: [python]
 comments: true
 share: true
-
-
 ---
 
 
@@ -21,30 +19,32 @@ share: true
 ### 클래스 속성 사용하기
 
 ```python
-class 클래스 이름:
-	  속성 = 값
+class className:
+    attribute = value
 
 class Person:
     bag = []
-	
-	  def pub_bag(self, stuff):
-	      self.bag.append(stuff)
+    
+    def pub_bag(self, stuff):
+        self.bag.append(stuff)
 ```
 
 
 ​    
 
-    james = Person()
-    james.put_bag('책')
-    
-    maria = Person()
-    maria.put_bag('열쇠')
-    
-    print(james.bag)
-    print(maria.bag)
-    
-    >> ['책', '열쇠']
-    >> ['책', '열쇠']
+```python
+james = Person()
+james.put_bag('책')
+
+maria = Person()
+maria.put_bag('열쇠')
+
+print(james.bag)
+print(maria.bag)
+
+>> ['책', '열쇠']
+>> ['책', '열쇠']
+```
 
 - 클래스 속성은 클래스에 속해 있으며 모든 인스턴스에서 공유한다.
 
@@ -55,8 +55,10 @@ class Person:
   class Person:
       bag = []
 
-      def put_bag(self, stuff):
-          Person.bag.append(stuff)
+  ```python
+  def put_bag(self, stuff):
+      Person.bag.append(stuff)
+  ```
 
 - 참고
 
@@ -96,8 +98,8 @@ class Person:
 class Knight:
     __item_limit = 10 # 비공개 클래스 속성
 		
-		def print_item_limit(self):
-				print(Knight.__item_limit) # 클래스 안에서만 접근 가능
+    def print_item_limit(self):
+        print(Knight.__item_limit) # 클래스 안에서만 접근 가능
 ```
 
 ## 정적 메서드 사용하기
@@ -110,10 +112,10 @@ class Knight:
   
 
   ```python
-  class 클래스 이름:
+  class className:
       @staticmethod
-      def 메서드(매개변수1, 매개변수2):
-          코드
+      def method(arg1, arg2):
+          code
   ```
 
   
