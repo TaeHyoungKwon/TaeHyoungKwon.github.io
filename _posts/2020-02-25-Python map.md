@@ -11,7 +11,7 @@ share: true
 
 
 
-## Python Itertools
+## Python map
 
 ### map과 lambda의 활용
 
@@ -25,4 +25,13 @@ print(''.join(map(lambda word: word[::-1], words)))
 ```
 
 
+
+### map과 range의 활용
+
+```python
+# 5 ~ 1 까지 역순으로 수를 만드는데, 타입을 str로 하는 리스트를 생성
+
+In [9]: list(map(str, range(5, 0, -1)))
+Out[9]: ['5', '4', '3', '2', '1']
+```
 
