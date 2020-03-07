@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python Snippets] Python Parse String to Datetime"
+title: "[Python Snippets] Python underscore"
 description: "Code Wars 문제를 풀면서 새롭게 알게된 것들을 snippets으로 정리 한다."
 date: 2020-02-16
 tags: [python, snippets, datetime, parse]
