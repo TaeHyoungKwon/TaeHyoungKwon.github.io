@@ -98,4 +98,4 @@ https://www.codewars.com/kata/58a0f18091e53d2ad1000039
     *   `Distutils` 에 대해서 알아 볼 필요가 있을 듯하다
 *   Action Item
     *   `Distuils` 모듈의 `LooseVersion` 의 구현 부분을 살펴본 후 포스팅 한다.
-    *   파이썬으로 정렬하는 방법에 대해서 총정리 관련 포스팅을 한다.(특히 key를 활용한 다양한 예제들)
+    *   파이썬으로 정렬하는 방법에 대해서 총정리 관련 (특히 key를 활용한 다양한 예제들)
