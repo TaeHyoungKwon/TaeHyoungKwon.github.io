@@ -3,7 +3,7 @@ layout: post
 title: "[Python Snippets] Python inner function"
 description: "파이썬 중요 개념들을 정리한다."
 date: 2020-03-28
-tags: [python]
+tags: [python, inner function, nested function, closure]
 comments: true
 share: true
 ---
