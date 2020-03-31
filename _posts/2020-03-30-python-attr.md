@@ -160,7 +160,10 @@ AttributeError: 'SampleClass' object has no attribute 'num'
 
 <delattr을 사용하지 않고 del c.x를 하여도 동일한 결과를 얻는다.>
 
-
+```
+def greek_comparator(lhs, rhs):
+    return cmp(greek_alphabet.index(lhs), greek_alphabet.index(rhs))
+```
 
 ```python
 >>> delattr(instance, 'not_exist_attr')
