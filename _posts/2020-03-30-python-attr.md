@@ -35,7 +35,7 @@ class SampleClass:
 2
 ```
 
-<기존 속성의 값을 바꾸는 경우>
+기존 속성의 값을 바꾸는 경우
 
 
 
@@ -74,7 +74,7 @@ class SampleClass:
 1
 ```
 
-<기존 속성의 값을 가져오는 경우>
+기존 속성의 값을 가져오는 경우
 
 
 
@@ -83,7 +83,7 @@ class SampleClass:
 1
 ```
 
-<getattr을 사용하지 않고, c.x를 하여도 동일한 결과>
+getattr을 사용하지 않고, c.x를 하여도 동일한 결과
 
 
 
@@ -97,7 +97,7 @@ AttributeError                            Traceback (most recent call last)
 AttributeError: 'SampleClass' object has no attribute 'not_exist_attr'
 ```
 
-<기존에 존재하지 않는 속성을 가져오려 하는 경우(기본 값이 없을 때)>
+기존에 존재하지 않는 속성을 가져오려 하는 경우(기본 값이 없을 때)
 
 
 
@@ -106,7 +106,7 @@ AttributeError: 'SampleClass' object has no attribute 'not_exist_attr'
 >>> 10
 ```
 
-<기존에 존재하지 않는 속성을 가져오려 하는 경우(기본 값이 있을 떄)>
+기존에 존재하지 않는 속성을 가져오려 하는 경우(기본 값이 있을 떄)
 
 
 
@@ -142,7 +142,7 @@ AttributeError                            Traceback (most recent call last)
 AttributeError: 'SampleClass' object has no attribute 'num'
 ```
 
-<기존 속성을 제거하는 경우>
+기존 속성을 제거하는 경우
 
 
 
@@ -158,7 +158,9 @@ AttributeError                            Traceback (most recent call last)
 AttributeError: 'SampleClass' object has no attribute 'num'
 ```
 
-<delattr을 사용하지 않고 del c.x를 하여도 동일한 결과를 얻는다.>
+delattr을 사용하지 않고 del c.x를 하여도 동일한 결과를 얻는다.
+
+
 
 ```
 def greek_comparator(lhs, rhs):
@@ -175,7 +177,7 @@ AttributeError                            Traceback (most recent call last)
 AttributeError: not_exist_attr
 ```
 
-<기존에 존재하지 않는 속성을 제거하려는 경우>
+기존에 존재하지 않는 속성을 제거하려는 경우
 
 
 
@@ -206,7 +208,7 @@ class SampleClass:
 True
 ```
 
-<해당 object에 name 속성이 존재하는 경우>
+해당 object에 name 속성이 존재하는 경우
 
 
 
@@ -217,7 +219,7 @@ True
 False
 ```
 
-<해당 object에 name 속성이 존재하지 않는 경우>
+해당 object에 name 속성이 존재하지 않는 경우
 
 
 
