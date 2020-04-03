@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "[Cosmic Python] Preface"
-description: "파이썬 중요 개념들을 정리한다."
-date: 2020-03-30
-tags: [python, setattr, getattr, delattr, hasattr, attr]
+description: "Cosmic Python을 읽고 중요 내용을 정리한다."
+date: 2020-03-31
+tags: [python, cosmicpython]
 comments: true
 share: true
 
@@ -41,6 +41,29 @@ share: true
 
 ## Who Should Read This Book
 
+*   복잡한 파이썬 어플리케이션을 개발하는 사람
+*   복잡한 것을 다루는 것에 고통받는 사람
+*   DDD 나 클래식 어플리케이션 아키텍쳐 패턴에 대해서 모르는 사람
+
+
+
+책 설명
+
+*   example app 을 챕터 별로 만들면서 진행
+*   TDD 사용
+
+
+
+Frameworks and Technologies
+
+*   Flask, SQLAlchemy, pytest, Docker, Redis 사용
+
+
+
+이 책의 목표
+
+*   위의 특정 기술들로 아키텍쳐를 구성해보는 것
+
 ## A Brief Overview of What You'll Learn
 
 이 책은 2가지 파트로 나뉜다.
@@ -66,4 +89,25 @@ share: true
 *   Epilogue
 
 ## Example Code and Coding Along
+
+*   하나의 example 프로젝트를 만들 것이고, 프로젝트를 완성 시켜 가면서 마치 페어 프로그래밍하는 것과 같이, 우리는 우리가 무엇을 하고 있고, 왜 그런지 각 스텝마다 설명할 것이다
+*   그러나 패턴을 익히기 위해선, 어떻게 동작하는지에 대해서 이해해야한다.
+*   코드는 깃헙에서 볼 수 있다
+
+
+
+책과 함께 코드를 작성할 수 이쓴 3가지 방법
+
+1.  본인 레포지토리를 생성하고, 책에서하는 것들을 따라서 한다.
+2.  본인 프로젝트에 각 챕터별 패턴들을 적용해본다.
+    *   high risk/high reward 
+3.  Exercise for the Reader 부분을 깃헙에서 코드를 다운받아서 스스로 코드를 작성해본다
+
+
+
+패턴들 중 일부를 자신의 프로젝트에 적용하려하는 경우 간단한 예제를 통해 작업하는 것이 안전하게 연습하는 좋은 방법이다
+
+
+
+
 
